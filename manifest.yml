@@ -6,8 +6,7 @@ default_versions:
 dependencies:
 - name: nginx
   version: 1.13.5
-  uri: https://buildpacks.cloudfoundry.org/dependencies/nginx/nginx-1.13.5-linux-x64-1dda12b3.tgz
-  md5: 1dda12b3af29313b1734b4ec988e5e32
+  uri: https://myownnginx.cfapps.sap.hana.ondemand.com/nginx-1.13.5-withhttpsubmodule.tgz
   cf_stacks:
   - cflinuxfs2
 pre_package: scripts/build.sh
