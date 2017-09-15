@@ -7,7 +7,7 @@ dependencies:
 - name: nginx
   version: 1.13.5
   uri: https://myownnginx.cfapps.sap.hana.ondemand.com/nginx-1.13.5-withhttpsubmodule.tgz
-  md5: 4f971490ac49d19a41ac657af6344233
+  md5: 6cf96f8a2e752e2d7faa7a87fab53258
   cf_stacks:
   - cflinuxfs2
 pre_package: scripts/build.sh
