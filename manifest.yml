@@ -7,7 +7,7 @@ dependencies:
 - name: nginx
   version: 1.13.5
   uri: https://myownnginx.cfapps.sap.hana.ondemand.com/nginx-1.13.5.tar.gz
-  md5: ff17b48b85566ed92392e488fc2bf6eb
+  md5: 9dbb4f51bcde87b99509aa3da05c6c14
   cf_stacks:
   - cflinuxfs2
 pre_package: scripts/build.sh
